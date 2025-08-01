@@ -1,8 +1,38 @@
 [
   {
-    "action": "Uncompress",
-    "name": "Alex Kidd in Miracle World DX [010025D01221A800][v262144] (0.28 GB).nsz",
-    "path": "R:/ROMs/Nintendo Switch\\Alex Kidd in Miracle World DX\\Alex Kidd in Miracle World DX [010025D01221A800][v262144] (0.28 GB).nsz",
+    "action": "Compress",
+    "name": "Alex Kidd in Miracle World DX [010025D01221A000][v0] (0.96 GB).nsp",
+    "path": "R:/ROMs/Nintendo Switch\\Alex Kidd in Miracle World DX\\Alex Kidd in Miracle World DX [010025D01221A000][v0] (0.96 GB).nsp",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "action": "Compress",
+    "name": "Alex Kidd in Miracle World DX [010025D01221A800][v262144] (0.28 GB).nsp",
+    "path": "R:/ROMs/Nintendo Switch\\Alex Kidd in Miracle World DX\\Alex Kidd in Miracle World DX [010025D01221A800][v262144] (0.28 GB).nsp",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "action": "Compress",
+    "name": "Astral Chain [01007300020FA000].nsp",
+    "path": "R:/ROMs/Nintendo Switch\\Astral Chain\\Astral Chain [01007300020FA000].nsp",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "action": "Compress",
+    "name": "Astral Chain [01007300020FA800][v65536].nsp",
+    "path": "R:/ROMs/Nintendo Switch\\Astral Chain\\Astral Chain [01007300020FA800][v65536].nsp",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "action": "Compress",
+    "name": "Bayonetta 3 [01004A4010FEA000][v0].nsp",
+    "path": "R:/ROMs/Nintendo Switch\\Bayonetta 3\\Bayonetta 3 [01004A4010FEA000][v0].nsp",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "action": "Compress",
+    "name": "Bayonetta 3 [01004A4010FEA800][v131072].nsp",
+    "path": "R:/ROMs/Nintendo Switch\\Bayonetta 3\\Bayonetta 3 [01004A4010FEA800][v131072].nsp",
     "platform": "Nintendo Switch"
   }
 ]

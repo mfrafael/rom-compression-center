@@ -15,13 +15,13 @@ def process_nsz_queue(queue):
         if action == 'Compress' and file_path.lower().endswith('.nsp'):
             print(f"Compressing NSP: {file_path}")
             try:
-                subprocess.run(["nsz", "-C", file_path], check=True)
+                subprocess.run(["nsz", "-C", "-w", file_path], check=True)
             except subprocess.CalledProcessError as e:
                 print(f"Error compressing {file_path}: {e}")
         elif action == 'Uncompress' and file_path.lower().endswith('.nsz'):
             print(f"Decompressing NSZ: {file_path}")
             try:
-                subprocess.run(["nsz", "-D", file_path], check=True)
+                subprocess.run(["nsz", "-D", "-w", file_path], check=True)
             except subprocess.CalledProcessError as e:
                 print(f"Error decompressing {file_path}: {e}")
         else:
@@ -32,6 +32,7 @@ if __name__ == "__main__":
     import json
     parser = argparse.ArgumentParser(description="Process a queue of Nintendo Switch ROMs for NSZ compression or decompression.")
     parser.add_argument("queue_file", help="Path to a JSON file containing the queue list.")
+    parser.add_argument("--verbose", action="store_true", help="Enable verbose output.")
     args = parser.parse_args()
 
     if not os.path.exists(args.queue_file):
@@ -39,4 +40,6 @@ if __name__ == "__main__":
     else:
         with open(args.queue_file, "r", encoding="utf-8") as f:
             queue = json.load(f)
+        if args.verbose:
+            print("[NSZ Processor] Verbose mode enabled.")
         process_nsz_queue(queue)

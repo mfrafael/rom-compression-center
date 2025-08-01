@@ -1,5 +1,5 @@
 advanced_mode: false
-default_folder: R:/ROMs/Nintendo Switch
+default_folder: R:/ROMs
 detailed_log: true
 ignore_system_files: true
 ignore_textures: true
@@ -18,3 +18,6 @@ system_extensions:
 - .log
 - .sav
 - .cfg
+- .txt
+- .exe
+- .mp3
