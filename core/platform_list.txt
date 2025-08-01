@@ -1,0 +1,28 @@
+Arcade
+Atari 2600
+Microsoft Xbox
+Microsoft Xbox 360
+Nintendo 3DS
+Nintendo 64
+Nintendo DS
+Nintendo Game Boy Advance
+Nintendo Game Boy Color
+Nintendo GameCube
+Nintendo NES
+Nintendo SNES
+Nintendo Switch
+Nintendo Wii
+Nintendo Wii U
+Sega 32X
+Sega CD
+Sega Dreamcast
+Sega Game Gear
+Sega Genesis
+Sega Master System
+Sega Saturn
+Sony Playstation
+Sony Playstation 2
+Sony Playstation 3
+Sony Playstation 4
+Sony PSP
+Windows

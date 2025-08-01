@@ -1,0 +1,8 @@
+# Requirements for ROM Compression Center
+PySide6>=6.5
+nsz>=4.1.0
+py7zr>=0.20.4
+numpy>=1.23.0
+pyqtgraph>=0.13.3
+requests>=2.31.0
+packaging>=23.0

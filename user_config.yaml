@@ -1,0 +1,20 @@
+advanced_mode: false
+default_folder: R:/ROMs/Nintendo Switch
+detailed_log: true
+ignore_system_files: true
+ignore_textures: true
+ignored_folders:
+- R:/ROMs/Sony Playstation 3
+- R:/ROMs/Sony Playstation 4
+system_extensions:
+- .ini
+- .sys
+- .dll
+- .bat
+- .tmp
+- .lnk
+- .dat
+- .db
+- .log
+- .sav
+- .cfg
